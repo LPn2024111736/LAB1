@@ -1,0 +1,2 @@
+O uso de imports é crucial para a realização deste exercício, visto que o código presente nos restantes
+ficheiros não seria acessível sem o uso destas linhas de código.
