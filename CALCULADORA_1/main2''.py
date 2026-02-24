@@ -1,23 +1,26 @@
-import funcoes as f
-
+import multiplicacao as mul
+import raizquadrada as sqrt
+import soma as som
+import diferenca as sub
+import divisao as div
 def main():
     print("Preciso que introduza dois valores:")
     x: float = float(input("x="))
     y: float = float(input("y="))
 
     val:float
-    val=f.somar(x,y)
+    val=som.somar(x,y)
     print("Valor da soma:",val)
-    val=f.subtrair(x,y)
+    val=sub.subtrair(x,y)
     print("Valor da subtração:",val)
-    val=f.multiplicar(x,y)
+    val=mul.multiplicar(x,y)
     print("Valor da multiplicação:",val)
     try:
-        val = f.dividir(x, y)
+        val = div.dividir(x, y)
         print("Valor da divisão:",val)
     except ZeroDivisionError as e:
         print("Error: ",e)
-    val=f.raizquadrada(x)
+    val=sqrt.raizquadrada(x)
     print("Valor da raíz quadrade de X:",val)
 
 
