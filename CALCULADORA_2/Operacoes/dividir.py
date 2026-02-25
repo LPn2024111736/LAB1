@@ -1,6 +1,12 @@
 from typing import Union
 
 class Dividir:
+    """
+    Classe Multiplicar, utilizada para a realização da operação destinada a esta classe.
+    :param self.x: dividendo
+    :param self.y: divisor
+    :param self.res: resultado da raíz multiplicação
+    """
     def __init__(self, x:float, y:float):
         self.x = x
         self.y = y

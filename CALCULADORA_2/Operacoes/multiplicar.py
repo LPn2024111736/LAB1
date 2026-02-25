@@ -1,6 +1,12 @@
 
 
 class Multiplicar:
+    """
+    Classe Multiplicar, utilizada para a realização da operação destinada a esta classe.
+    :param self.x: primeiro valor a ser multiplicado
+    :param self.y: segundo valor a ser multiplicado
+    :param self.res: resultado da raíz multiplicação
+    """
     def __init__(self, x:float, y:float):
         self.x = x
         self.y = y

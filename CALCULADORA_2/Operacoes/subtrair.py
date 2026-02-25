@@ -1,4 +1,10 @@
 class Subtrair:
+    """
+    Classe Subtrair, utilizada para a realização da operação destinada a esta classe.
+        :param self.x: valor subtraido
+        :param self.y: valor a subtrair
+        :return: resultado da subtração
+    """
     def __init__(self, x:float, y:float):
         self.x = x
         self.y = y

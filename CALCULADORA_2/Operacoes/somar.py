@@ -1,4 +1,10 @@
 class Somar:
+    """
+    Classe Somar, utilizada para a realização da operação destinada a esta classe.
+        :param self.x: primeiro valor a ser adicionado
+        :param self.y: segundo valor a ser adicionado
+        :return: resultado da adição
+    """
     def __init__(self, x:float, y:float):
         self.x = x
         self.y = y

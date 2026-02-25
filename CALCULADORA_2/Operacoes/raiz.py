@@ -2,6 +2,11 @@ from typing import Union
 from math import sqrt
 
 class Raiz:
+    """
+    Classe Raiz, utilizada para a realização da operação destinada a esta classe.
+    :param self.x: valor a que a raíz vai ser aplicada
+    :param self.res: resultado da raíz quadrada
+    """
     def __init__(self, x:float,):
         self.x = x
         self.res = 0
@@ -18,3 +23,6 @@ class Raiz:
         except ValueError:
             return "error:negative number"
         return self.res
+
+
+
