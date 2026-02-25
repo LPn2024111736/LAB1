@@ -1,3 +1,5 @@
+from math import sqrt
+
 def subtrair(x: float, y: float) -> float:
     """
     Subtrai dois números
@@ -21,7 +23,9 @@ def multiplicar(x: float, y: float) -> float:
     return x * y
 
 def raizquadrada( x: float) -> float:
-    return x ** 0.5
+    if x < 0:
+        raise ValueError("x is negative")
+    return sqrt(x)
 
 def main():
     print("Qual é o cálculo que quer efetuar? x + - / *")
