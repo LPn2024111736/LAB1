@@ -2,10 +2,10 @@ from typing import Union
 
 class Dividir:
     """
-    Classe Multiplicar, utilizada para a realização da operação destinada a esta classe.
+    Classe Dividir, utilizada para a realização da operação destinada a esta classe.
     :param self.x: dividendo
     :param self.y: divisor
-    :param self.res: resultado da raíz multiplicação
+    :param self.res: resultado da divisão
     """
     def __init__(self, x:float, y:float):
         self.x = x
